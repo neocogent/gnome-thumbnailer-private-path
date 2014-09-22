@@ -1,0 +1,7 @@
+[Thumbnailer Entry]
+Exec=/usr/local/bin/privatethumbs %i %o %s
+MimeType=image/jpeg;image/png;image/tiff;image/gif;
+
+[PrivateThumbs]
+Dirs=/mnt/
+
