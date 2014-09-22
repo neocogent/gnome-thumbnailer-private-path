@@ -8,8 +8,10 @@ It works by checking the path against a configured list and when the request mat
 The extra options are store in the same file as the usual thumbnailer config as a new section:
 
 [PrivateThumbs]
+
 Dirs=paths separated by semi-colons, default is /tmp/ (which apparently has no effect)
-Thumb= path to substitute png (by default a dummy 1 pixel image provided in privatethumbs.png)
+
+Thumb= path to substitute png (by default a dummy 1 pixel image provided by privatethumbs.png)
 
 If the thumb path has no "/" then it is considered local to the thumbnailer config file.
 
