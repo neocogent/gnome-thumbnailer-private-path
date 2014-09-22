@@ -22,7 +22,7 @@ To install edit private.thumbnailer to suit, and copy along with privatethumbs.p
 
 /usr/share/thumbnailers
 
-Copy the privatethumbs script to a location in the path. Typically /usr/local/bin will do nicely.
+Copy the privatethumbs script to a location in the path and chmod +x. Typically /usr/local/bin will do nicely.
 
 Restart with "nautilus -p" so the new thumbnailer gets loaded.
 
