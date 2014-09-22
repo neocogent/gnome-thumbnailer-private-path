@@ -15,6 +15,15 @@ Thumb= path to substitute png (by default a dummy 1 pixel image provided by priv
 
 If the thumb path has no "/" then it is considered local to the thumbnailer config file.
 
+Installing
+----------
 
+To install edit private.thumbnailer to suit, and copy along with privatethumbs.png to:
+
+/usr/share/thumbnailers
+
+Copy the privatethumbs script to a location in the path. Typically /usr/local/bin will do nicely.
+
+Restart with "nautilus -p" so the new thumbnailer gets loaded.
 
 
